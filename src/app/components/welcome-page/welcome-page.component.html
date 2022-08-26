@@ -1,0 +1,33 @@
+<div class="all">
+  <div class="container">
+
+    <div class="login-content">
+      <div></div>
+      <div class="row1">
+        <h1>Welcome to Quiz App</h1>
+        <p>This quiz will contains total 10 questions. Each Question holds 10 Points</p>
+      </div>
+      <div class="row2">
+        <h4>Rules:</h4>
+        <ol  class="list-group list-group-numbered">
+           <li>Correct Question gives you 10 points</li>
+           <li>Incorrect question gives to -10 points</li>
+            <li>You will have 60 sec to answer each question</li>
+            <li>Refereshing the page will reset the Quiz</li>
+        </ol>
+      </div>
+      <div class="row3">
+        <h2>All the best!!</h2>
+        <input #name type="text" class="form-control" placeholder="Enter your name">
+      </div>
+      <div class="row4">
+        <button class="btn btn-primary" routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="../../../assets/welcome.svg">
+    </div>
+  </div>
+
+</div>
